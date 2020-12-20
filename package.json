@@ -4,7 +4,12 @@
   "description": "Simple egg mvp",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependenceies": {
+    "express": "*",
+    "mongoose": "*"
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/LiamClark14/theEggMVP/issues"
   },
-  "homepage": "https://github.com/LiamClark14/theEggMVP#readme"
+  "homepage": "https://github.com/LiamClark14/theEggMVP#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8"
+  }
 }
